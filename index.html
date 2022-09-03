@@ -19,7 +19,6 @@
 
     <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="#"> <img src="assets/img/logo1.svg" class="logo" alt="" ></a>
 
     <button id="btn1" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon navbar-dark"></span>
@@ -92,14 +91,14 @@ var newCss = {
 }
 
 $(document).ready(function () {
-
-
+  var windowWidth = $(window).width();
+  if(windowWidth > 540){
 // $(window).scroll(function () {
 //     if ($(this).scrollTop() > 20) {
         //change yes to no
-        $(".navbar").hide(0).delay(1200).fadeIn(1000);
-        $("#serv2").hide(0).delay(1200).fadeIn(3000);
-
+        $(".navbar").hide(0).delay(1200).slideDown(1500);
+        $("#serv2").hide(0).delay(1200).fadeIn(500);
+}
 
   });
 
