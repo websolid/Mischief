@@ -91,6 +91,10 @@ text-transform: capitalize;
 .navbar{
   width: 100%;
   background: #A7D2CB;
+
+  border-bottom: 7px solid white;
+
+
 }
 .btn {
   margin-top: 19rem;
@@ -157,6 +161,8 @@ text-transform: capitalize;
 
 
 }
+
+
 }
 #serv1{
   background: url('assets/img/logo.svg') no-repeat center center;
@@ -164,6 +170,9 @@ text-transform: capitalize;
   height: 50rem;
   width: 100%;
   background-size: cover;
+    border-left: 7px solid white;
+    border-bottom: 7px solid white;
+    border-top: 7px solid white;
 
 
 }
@@ -176,6 +185,9 @@ text-transform: capitalize;
   width: 100%;
 opacity: 0.7;
   position: relative;
+  border-right: 7px solid white;
+  border-bottom: 7px solid white;
+  border-top: 7px solid white;
 
 }
 
@@ -190,6 +202,7 @@ opacity: 0.7;
     background-color: #A7D2CB !important;
     height: 40rem;
     background-size: cover;
+  display: none !important;
 
 
   }
@@ -202,7 +215,7 @@ opacity: 0.7;
     width: 100%;
   opacity: 0.7;
     position: relative;
-    display: none !important;
+
 
   }
 
@@ -212,4 +225,16 @@ opacity: 0.7;
   margin-right: 4rem;
   }
 
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+  border: none;
+  color: black;
 }
