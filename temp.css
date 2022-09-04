@@ -199,11 +199,10 @@ opacity: 0.9;
 }
 
 #btn-scale{
-  margin-top:
   display: none;
 }
 
-@media (max-width: 967px) {
+@media (max-width: 960px) {
 
   #serv1{
     background: url('assets/img/logo.svg') no-repeat center center;
