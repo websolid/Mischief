@@ -199,6 +199,7 @@ opacity: 0.9;
 }
 
 #btn-scale{
+  margin-top:
   display: none;
 }
 
@@ -207,8 +208,9 @@ opacity: 0.9;
   #serv1{
     background: url('assets/img/logo.svg') no-repeat center center;
     background-color: #001A23 !important;
-    height: 40rem;
-    background-size: cover;
+    height: 50rem;
+    background-size: contain;
+    margin:auto;
 
 
 
@@ -228,8 +230,10 @@ opacity: 0.9;
 
   #btn-scale{
   display: inline-block;
-  margin-top: 21rem;
-  margin-right: 4rem;
+  margin-top: 25rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+
   }
 
   #btn-scale2{
