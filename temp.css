@@ -261,7 +261,13 @@ opacity: 0.9;
     border: black;
     border: 2px solid white;
   }
+  #btn-scale{
+  display: inline-block;
+  margin-top: 25rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
 
+  }
 
 }
 
