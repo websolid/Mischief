@@ -237,7 +237,7 @@ opacity: 0.9;
 
   }
   .btn {
-    margin-top: 18rem;
+    margin-top: 20rem;
     background: #001A23;
     color: white;
     font-family: 'Open Sans', sans-serif;;
@@ -250,7 +250,7 @@ opacity: 0.9;
   }
 
   .btn:hover{
-    margin-top: 18rem;
+    margin-top: 20rem;
     background: #ACBFA3;
     color: #001A23;
     font-family: 'Open Sans', sans-serif;
