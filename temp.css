@@ -203,7 +203,7 @@ opacity: 0.9;
   display: none;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 967px) {
 
   #serv1{
     background: url('assets/img/logo.svg') no-repeat center center;
