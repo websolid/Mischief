@@ -91,9 +91,9 @@ text-transform: capitalize;
   margin-top: 14rem;
   background: #001A23;
   color: white;
-    font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;;
   font-size: 1.75rem;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.05rem;
   text-transform: capitalize;
   border: 2px solid #ACBFA3;
   border-radius: 20px;
@@ -104,21 +104,21 @@ text-transform: capitalize;
   margin-top: 14rem;
   background: #ACBFA3;
   color: #001A23;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.75rem;
-  letter-spacing: 0.12rem;
+  letter-spacing: 0.05rem;
   text-transform: capitalize;
   border: black;
-  border: 2px solid #001A23;
+  border: 2px solid white;
 }
 
 /* navbar */
 
 .navbar .navbar-nav .nav-item .nav-link{
 
-font-family: 'Cormorant Garamond', serif;
-letter-spacing: 0.1rem;
-  font-size: 1.45rem;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 0.02rem;
+  font-size: 1.25rem;
   color: white;
 
 }
@@ -150,7 +150,7 @@ letter-spacing: 0.1rem;
 }
 @media (max-width: 968px) {
   .navbar-brand{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: ;
     font-size: 1rem !important;
     opacity:0.7;
     /* border-bottom: 2px solid black; */
@@ -162,7 +162,7 @@ letter-spacing: 0.1rem;
 }
 
 .navbar .navbar-nav .nav-item .nav-link{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem !important;
   display: inline-block !important;
   margin:auto !important;
@@ -178,24 +178,23 @@ letter-spacing: 0.1rem;
   height: 50rem;
   background-size: cover;
 
-    border-bottom: 7px solid #ACBFA3;
-    border-top: 7px solid #ACBFA3;
+    border-bottom: 7px solid white;
+
 
 
 
 }
 
 #serv2{
-  background: url('assets/img/mis4.jpg') no-repeat;
+  background: url('assets/img/mis3.jpg') no-repeat;
   background-size: cover;
   background-color: #0000 !important;
   height: 50rem;
 opacity: 0.9;
   position: relative;
-  border-right: 7px solid #ACBFA3;
-  border-bottom: 7px solid #ACBFA3;
-  border-top: 7px solid #ACBFA3;
-  border-left: 7px solid #ACBFA3;
+  border-bottom: 7px solid white;
+
+
 
 }
 
@@ -216,7 +215,7 @@ opacity: 0.9;
   }
 
   #serv2{
-    background: url('assets/img/mis4.jpg') no-repeat;
+    background: url('assets/img/mis3.jpg') no-repeat;
     background-size: cover;
     background-color: #0000 !important;
     height: 50rem;
@@ -235,6 +234,14 @@ opacity: 0.9;
 
   #btn-scale2{
     display: none !important;
+  }
+  .navbar{
+    width: 100%;
+    background: #001A23;
+
+
+
+
   }
 
 }
