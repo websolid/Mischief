@@ -92,11 +92,11 @@ text-transform: capitalize;
   background: #001A23;
   color: white;
   font-family: 'Open Sans', sans-serif;;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   letter-spacing: 0.05rem;
   text-transform: capitalize;
-  border: 2px solid #ACBFA3;
-  border-radius: 20px;
+  border: 1px solid #ACBFA3;
+  border-radius: 2px;
 
 }
 
@@ -105,11 +105,11 @@ text-transform: capitalize;
   background: #ACBFA3;
   color: #001A23;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   letter-spacing: 0.05rem;
   text-transform: capitalize;
   border: black;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 /* navbar */
@@ -118,7 +118,7 @@ text-transform: capitalize;
 
 font-family: 'Open Sans', sans-serif;
 letter-spacing: 0.02rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: white;
 
 }
@@ -246,6 +246,7 @@ opacity: 0.9;
     text-transform: capitalize;
     border: 2px solid #ACBFA3;
     border-radius: 20px;
+    display: none;
 
   }
 
