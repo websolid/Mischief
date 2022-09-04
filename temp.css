@@ -214,7 +214,7 @@ opacity: 0.9;
   #serv1{
     background: url('assets/img/logo.svg') no-repeat center center;
     background-color: #001A23;
-    height: 80rem;
+    height: 70rem;
     background-size: cover;
 
       border-bottom: 7px solid white;
@@ -228,7 +228,7 @@ opacity: 0.9;
     background: url('assets/img/mis3.jpg') no-repeat;
     background-size: cover;
     background-color: #0000 !important;
-    height: 80rem;
+    height: 70rem;
   opacity: 0.9;
     position: relative;
     border-bottom: 7px solid white;
@@ -264,7 +264,7 @@ opacity: 0.9;
   #btn-scale{
   display: inline-block;
   margin-top: 45rem;
-  margin-right: 7rem;
+  margin-right: 4rem;
   font-size: 1.5rem;
 
   }
