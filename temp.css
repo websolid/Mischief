@@ -236,6 +236,32 @@ opacity: 0.9;
 
 
   }
+  .btn {
+    margin-top: 18rem;
+    background: #001A23;
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 1.75rem;
+    letter-spacing: 0.05rem;
+    text-transform: capitalize;
+    border: 2px solid #ACBFA3;
+    border-radius: 20px;
+
+  }
+
+  .btn:hover{
+    margin-top: 18rem;
+    background: #ACBFA3;
+    color: #001A23;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 0.05rem;
+    text-transform: capitalize;
+    border: black;
+    border: 2px solid white;
+  }
+
+
 }
 
 
