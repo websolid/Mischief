@@ -202,6 +202,12 @@ opacity: 0.9;
   display: none;
 }
 
+.head{
+  color:#ACBFA3;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
 @media (max-width: 960px) {
 
   #serv1{
@@ -246,9 +252,17 @@ opacity: 0.9;
 
 
   }
+  .head{
+    color:#ACBFA3;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
 
 }
 
+#menu{
+  margin-bottom: 3rem;
+}
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
