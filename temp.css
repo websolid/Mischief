@@ -17,7 +17,9 @@ h3{
 color: #F2D388;
 }
 
-
+header.masthead{
+  height: 100%;
+}
 
   /* .navbar-brand{
     font-family: 'Adamina', serif;
