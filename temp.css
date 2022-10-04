@@ -18,19 +18,7 @@ color: #F2D388;
 }
 
 
-@media (max-width: 728px) {
-  header.masthead{
-    background-image: url("assets/img/bh2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #;
 
-    padding-top: 12.5rem;
-    padding-bottom: 20.5rem;
-      height: 50rem;
-      opacity: 0.5;
-  }
   /* .navbar-brand{
     font-family: 'Adamina', serif;
     font-size: 1rem !important;
@@ -52,12 +40,7 @@ color: #F2D388;
 
 
 } */
-#navbarSupportedContent{
-    text-align: center;
-    margin:auto;
-  }
 
-}
 /* header.masthead:before {
   content: "";
   position: absolute;
@@ -81,7 +64,8 @@ text-transform: capitalize;
 }
 .navbar{
   width: 100%;
-  background: transparent;
+  background: #001A23;
+
 
 
 
@@ -170,10 +154,15 @@ letter-spacing: 0.02rem;
 
 }
 
+#navbar-right{
+
+  margin-right: auto;
+}
+
 
 }
 #serv1{
-  background: url('assets/img/logo.svg') no-repeat center center;
+  background: url('assets/img/logo.jpg') no-repeat center center;
   background-color: #001A23;
   height: 50rem;
   background-size: cover;
@@ -186,7 +175,7 @@ letter-spacing: 0.02rem;
 }
 
 #serv2{
-  background: url('assets/img/mis3.jpg') no-repeat;
+  background: url('assets/img/pic.jpg') no-repeat;
   background-size: cover;
   background-color: #0000 !important;
   height: 50rem;
@@ -212,7 +201,7 @@ opacity: 0.9;
 @media (min-width: 1600px) {
 
   #serv1{
-    background: url('assets/img/logo.svg') no-repeat center center;
+    background: url('assets/img/logo.jpg') no-repeat center center;
     background-color: #001A23;
     height: 70rem;
     background-size: cover;
@@ -225,7 +214,7 @@ opacity: 0.9;
   }
 
   #serv2{
-    background: url('assets/img/mis3.jpg') no-repeat;
+    background: url('assets/img/pic.jpg') no-repeat;
     background-size: cover;
     background-color: #0000 !important;
     height: 70rem;
@@ -276,7 +265,7 @@ opacity: 0.9;
 @media (max-width: 960px) {
 
   #serv1{
-    background: url('assets/img/logo.svg') no-repeat center center;
+    background: url('assets/img/logo.jpg') no-repeat center center;
     background-color: #001A23 !important;
     height: 50rem;
     background-size: contain;
@@ -287,7 +276,7 @@ opacity: 0.9;
   }
 
   #serv2{
-    background: url('assets/img/mis3.jpg') no-repeat;
+    background: url('assets/img/pic.jpg') no-repeat;
     background-size: cover;
     background-color: #0000 !important;
     height: 50rem;
@@ -323,6 +312,31 @@ opacity: 0.9;
     text-transform: uppercase;
   }
 
+  .head1{
+    color:#ACBFA3;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    display:inline-block !important;
+    padding-top: 12.5rem;
+    position: relative;
+    text-shadow: 1px  1px #ACBFA4;
+  }
+  .head2{
+    color:#ACBFA3;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    display:inline-block !important;
+    position: relative;
+    text-decoration: underline;
+  }
+
+
+}
+
+.head1{
+
+  display: none;
 }
 
 #menu{
@@ -338,4 +352,26 @@ opacity: 0.9;
 .navbar-toggler{
   border: none;
   color: black;
+}
+
+#navbar-right{
+
+  margin-left: auto;
+
+
+}
+
+#port1 {
+display: inline-block;
+border-bottom: 2px solid;
+}
+
+.material-symbols-outlined{
+  color: white;
+  display: inline;
+  padding-top: 5px;
+  vertical-align: middle;
+
+
+
 }
