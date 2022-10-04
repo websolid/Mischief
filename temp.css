@@ -19,6 +19,7 @@ color: #F2D388;
 
 header.masthead{
   height: 100%;
+  float: inherit;
 }
 
   /* .navbar-brand{
