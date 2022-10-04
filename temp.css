@@ -200,9 +200,7 @@ opacity: 0.9;
 
 @media (min-width: 1600px) {
 
-header.masthead{
-  height: 100%;
-}
+
     #serv1{
       background: url('assets/img/logo.jpg') no-repeat center center;
       background-color: #001A23 !important;
