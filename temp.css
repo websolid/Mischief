@@ -205,76 +205,40 @@ opacity: 0.9;
 @media (min-width: 1600px) {
 
 
-    #serv1{
-      background: url('assets/img/logo.jpg') no-repeat center center;
-      background-color: #001A23 !important;
-      height: 70rem;
-      background-size: contain;
-      margin:auto;
+  #serv1{
+    background: url('assets/img/logo.jpg') no-repeat center center;
+    background-color: #001A23;
+    height: 70rem;
+    background-size: contain;
 
 
 
-    }
+
+
+  }
 
     #serv2{
       background: url('assets/img/pic.jpg') no-repeat;
       background-size: cover;
       background-color: #0000 !important;
       height: 70rem;
-    opacity: 0.7;
-      
+    opacity: 0.9;
+      position: relative;
+
 
 
     }
+
+
 
     #btn-scale{
-    display: inline-block;
-    margin-top: 25rem;
-    margin-right: 1rem;
-    font-size: 1.5rem;
-
-    }
-
-    #btn-scale2{
       display: none !important;
-    }
-    .navbar{
-      width: 100%;
-      background: #001A23;
 
-
-
-
-    }
-    .head{
-      color:#ACBFA3;
-      font-size: 2rem;
-      text-transform: uppercase;
-    }
-
-    .head1{
-      color:#ACBFA3;
-      font-size: 2rem;
-      text-transform: uppercase;
-      letter-spacing: 0.125rem;
-      display:inline-block !important;
-      padding-top: 12.5rem;
-      position: relative;
-      text-shadow: 1px  1px #ACBFA4;
-    }
-    .head2{
-      color:#ACBFA3;
-      font-size: 1.5rem;
-      text-transform: lowercase;
-      display:inline-block !important;
-      position: relative;
-      text-decoration: underline;
-    }
 
 
   }
 
-
+}
 
 @media (max-width: 960px) {
 
