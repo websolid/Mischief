@@ -233,10 +233,16 @@ opacity: 0.9;
 
     #btn-scale{
       display: none !important;
+}
+      #btn-scale2{
+      display: inline-block;
+      margin-top: 25rem;
+      margin-right: 1rem;
+      font-size: 1.5rem;
+
+      }
 
 
-
-  }
 
 }
 
