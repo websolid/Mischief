@@ -198,7 +198,7 @@ opacity: 0.9;
 }
 
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
 
   #serv1{
     background: url('assets/img/logo.jpg') no-repeat center center;
@@ -258,7 +258,7 @@ opacity: 0.9;
 
   }
 
-}
+} */
 
 
 
@@ -362,14 +362,12 @@ opacity: 0.9;
 }
 
 #port1 {
-display: inline-block;
-border-bottom: 2px solid;
+  color: #ACBFA3;
+  display: inline-block;
 }
 
 .material-symbols-outlined{
-  color: white;
-  display: inline;
-  padding-top: 5px;
+  color: #ACBFA3;
   vertical-align: middle;
 
 
