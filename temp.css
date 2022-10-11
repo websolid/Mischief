@@ -75,7 +75,8 @@ text-transform: capitalize;
 
 }
 .btn {
-  margin-top: 25rem;
+
+  margin-top: 60vh;
   background: #001A23;
   color: white;
   font-family: 'Open Sans', sans-serif;;
@@ -84,6 +85,8 @@ text-transform: capitalize;
   text-transform: capitalize;
   border: 1px solid #ACBFA3;
   border-radius: 2px;
+  position: relative;
+
 
 }
 
@@ -160,6 +163,8 @@ letter-spacing: 0.02rem;
 
   margin-right: auto;
 }
+
+
 
 
 }
