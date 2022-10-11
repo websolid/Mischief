@@ -88,7 +88,6 @@ text-transform: capitalize;
 }
 
 .btn:hover{
-  margin-top: 14rem;
   background: #ACBFA3;
   color: #001A23;
   font-family: 'Open Sans', sans-serif;
@@ -281,7 +280,7 @@ font-size: 1.5rem;
 
   #btn-scale{
   display: inline-block;
-  margin-top: 25rem;
+  margin-top: 35rem;
   margin-right: 1rem;
   font-size: 1.5rem;
 
