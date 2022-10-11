@@ -75,7 +75,7 @@ text-transform: capitalize;
 
 }
 .btn {
-  margin-top: 14rem;
+  margin-top: 25rem;
   background: #001A23;
   color: white;
   font-family: 'Open Sans', sans-serif;;
@@ -200,13 +200,13 @@ opacity: 0.9;
   font-size: 5rem;
   text-transform: uppercase;
 }
-#btn-scale{
+/* #btn-scale{
 display: inline-block;
 margin-top: 30rem;
 margin-right: 1rem;
 font-size: 1.5rem;
 
-}
+} */
 
 
 @media (min-width: 1600px) {
