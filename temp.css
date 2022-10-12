@@ -369,3 +369,9 @@ font-size: 1.5rem;
 
 
 }
+
+#embed{
+  position: relative;
+  height: 90vh;
+  width: 90%;
+}
